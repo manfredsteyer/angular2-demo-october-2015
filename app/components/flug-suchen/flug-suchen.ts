@@ -1,4 +1,4 @@
-import { Component, View, NgIf, NgFor, FORM_DIRECTIVES, Inject } from 'angular2/angular2';
+﻿import { Component, View, NgIf, NgFor, FORM_DIRECTIVES, Inject } from 'angular2/angular2';
 import { ROUTER_DIRECTIVES } from 'angular2/router';
 
 import { FlugService } from './../../services/flug-service';
@@ -10,7 +10,7 @@ import { CityValidator } from './../../validation/city-validator';
 	selector: 'flug-suchen'
 })
 @View({
-	templateUrl:'app/components/flug-suchen/flug-suchen',
+	templateUrl:'app/components/flug-suchen/flug-suchen.html',
 	directives: [NgIf, NgFor, FORM_DIRECTIVES, ShowError, CityValidator, ROUTER_DIRECTIVES]
 })
 export class FlugSuchen {

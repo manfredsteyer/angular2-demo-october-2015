@@ -1,4 +1,4 @@
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+﻿var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
     switch (arguments.length) {
         case 2: return decorators.reduceRight(function(o, d) { return (d && d(o)) || o; }, target);
@@ -41,7 +41,7 @@ var FlugSuchen = (function () {
             selector: 'flug-suchen'
         }),
         angular2_1.View({
-            templateUrl: 'app/components/flug-suchen/flug-suchen',
+            templateUrl: 'app/components/flug-suchen/flug-suchen.html',
             directives: [angular2_1.NgIf, angular2_1.NgFor, angular2_1.FORM_DIRECTIVES, show_error_1.ShowError, city_validator_1.CityValidator, router_1.ROUTER_DIRECTIVES]
         }),
         __param(0, angular2_1.Inject(flug_service_1.FlugService)), 
